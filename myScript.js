@@ -4,3 +4,9 @@ function aratamesaj() {
 function arataaldoileamesaj() {
            alert("de ce ai apăsat?") ;
 }
+function cineesti() {
+        prompt( "care este numele tau?");
+}
+function deundeesti(){
+       prompt("de unde esti?");
+}
