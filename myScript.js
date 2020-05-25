@@ -5,8 +5,11 @@ function arataaldoileamesaj() {
            alert("de ce ai apăsat?") ;
 }
 function cineesti() {
-        prompt( "care este numele tau?");
+       let intrebare=prompt( "care este numele tau?");
+   document.getElementById("nume").innerHTML=intrebare;
+
 }
 function deundeesti(){
-       prompt("de unde esti?");
+    let raspuns=prompt("de unde esti?");
+document.getElementById("locatie").innerHTML=raspuns;
 }
